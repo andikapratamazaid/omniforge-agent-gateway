@@ -1,0 +1,5 @@
+# pola izin dari OpenClaw contoh
+echo
+date
+ls
+git status
