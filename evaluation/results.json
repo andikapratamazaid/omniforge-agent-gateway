@@ -1,0 +1,16 @@
+{
+  "passed": 10,
+  "total": 10,
+  "results": {
+    "parse_enam_platform": true,
+    "memo_suara_tertranskrip_simulasi": true,
+    "kelanjutan_lintas_platform_setelah_link": true,
+    "kode_link_salah_ditolak": true,
+    "eksekusi_diizinkan_berjalan": true,
+    "eksekusi_berbahaya_ditolak": true,
+    "impor_openclaw_dry_run_lengkap": true,
+    "impor_n8n_menghasilkan_skill": true,
+    "cron_every_due_dan_tertunda": true,
+    "memori_ingat_tersimpan": true
+  }
+}

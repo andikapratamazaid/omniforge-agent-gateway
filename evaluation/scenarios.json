@@ -1,0 +1,15 @@
+{
+  "note": "Skenario evaluasi deterministik OmniForge, dijalankan run_evaluation.py",
+  "checks": [
+    "parse_enam_platform",
+    "memo_suara_tertranskrip_simulasi",
+    "kelanjutan_lintas_platform_setelah_link",
+    "kode_link_salah_ditolak",
+    "eksekusi_diizinkan_berjalan",
+    "eksekusi_berbahaya_ditolak",
+    "impor_openclaw_dry_run_lengkap",
+    "impor_n8n_menghasilkan_skill",
+    "cron_every_due_dan_tertunda",
+    "memori_ingat_tersimpan"
+  ]
+}
