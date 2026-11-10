@@ -1,0 +1,7 @@
+{
+  "roles": {
+    "gateway": {"model": "openai/gpt-4o-mini", "fallback": ["google/gemini-flash-1.5", "anthropic/claude-3.5-sonnet"]},
+    "transcribe": {"model": "openai/whisper-1", "fallback": []}
+  },
+  "note": "Dipakai pada mode live. Mode demo tidak memanggil model apa pun."
+}
