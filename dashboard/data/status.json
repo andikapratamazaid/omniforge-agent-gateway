@@ -1,0 +1,42 @@
+{
+  "mode": "demo",
+  "stats": {
+    "identities": 2,
+    "links": 3,
+    "messages": 10,
+    "cron_jobs": 1,
+    "executions": 2
+  },
+  "backends": [
+    {
+      "name": "local",
+      "status": "siap",
+      "note": "subprocess di mesin gateway"
+    },
+    {
+      "name": "docker",
+      "status": "docker tidak ditemukan di PATH",
+      "note": "image python:3.12-slim"
+    },
+    {
+      "name": "ssh",
+      "status": "SSH_HOST belum diisi",
+      "note": "atur SSH_HOST di .env"
+    },
+    {
+      "name": "modal",
+      "status": "perlu kredensial",
+      "note": "adapter serverless, lihat docs"
+    },
+    {
+      "name": "daytona",
+      "status": "perlu kredensial",
+      "note": "adapter serverless, lihat docs"
+    },
+    {
+      "name": "vercel",
+      "status": "perlu kredensial",
+      "note": "adapter serverless, lihat docs"
+    }
+  ]
+}
