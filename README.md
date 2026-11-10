@@ -1,7 +1,5 @@
 # OmniForge — Multi-Platform Agent Gateway
 
-![OmniForge banner](docs/img/banner.png)
-
 **One agent, every platform.** OmniForge is a personal AI agent gateway
 that serves **Telegram, Discord, Slack, WhatsApp, Signal, and a CLI**
 from **a single gateway process**, with cross-platform conversation
@@ -61,10 +59,6 @@ standard library, no third-party dependencies.
   imported skills).
 
 ## Architecture
-
-![Architecture](docs/img/arsitektur.png)
-
-![Message flow](docs/img/alur-pesan.png)
 
 Each adapter only does two things: parse its platform's payload into a
 unified `Message`, and send a reply. Everything else (identity,
@@ -194,10 +188,6 @@ and the reply is delivered to the job's platform and chat. Schedules:
 `every:<seconds>` repeats; `daily:<HH:MM>` fires once a day (UTC).
 
 ## Dashboard
-
-![Dashboard](docs/img/dashboard.png)
-
-*(Illustration with numbers from the seeded demo database.)*
 
 `dashboard/` is a static page served by the gateway at `/`. It reads
 `/api/status` when the gateway is live and falls back to
