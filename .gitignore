@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+data/live/
+*.db-journal
+!db/omniforge.db

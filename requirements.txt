@@ -1,0 +1,2 @@
+# OmniForge tidak membutuhkan dependensi pihak ketiga.
+# Seluruh fitur inti memakai standard library Python 3.10+.
