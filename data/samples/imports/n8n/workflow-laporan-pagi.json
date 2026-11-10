@@ -1,0 +1,10 @@
+{
+  "name": "Laporan Pagi Otomatis",
+  "nodes": [
+    {"name": "Setiap 07:00", "type": "n8n-nodes-base.scheduleTrigger"},
+    {"name": "Ambil Data Penjualan", "type": "n8n-nodes-base.httpRequest"},
+    {"name": "Susun Ringkasan", "type": "n8n-nodes-base.code"},
+    {"name": "Kirim WhatsApp", "type": "n8n-nodes-base.whatsApp"}
+  ],
+  "connections": {}
+}
