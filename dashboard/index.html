@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OmniForge — Dashboard Gateway</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>OmniForge</h1>
+  <p>Multi-Platform Agent Gateway: satu proses untuk Telegram, Discord, Slack, WhatsApp, Signal, dan CLI.</p>
+</header>
+<main>
+  <section class="cards" id="cards"></section>
+  <section>
+    <h2>Platform</h2>
+    <div class="chips" id="platforms"></div>
+  </section>
+  <section>
+    <h2>Backend Eksekusi</h2>
+    <table id="backends"><thead><tr><th>Backend</th><th>Status</th><th>Catatan</th></tr></thead><tbody></tbody></table>
+  </section>
+  <p class="note">Dashboard membaca /api/status dari gateway yang berjalan. Angka pada data/status.json adalah contoh dari database seed.</p>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

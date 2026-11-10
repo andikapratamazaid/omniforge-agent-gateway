@@ -1,0 +1,12 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #0d2137; color: #eef3f8; }
+header { padding: 28px 24px 8px; }
+h1 { margin: 0; color: #f5a623; }
+main { padding: 8px 24px 32px; }
+.cards { display: flex; gap: 12px; flex-wrap: wrap; margin: 16px 0; }
+.card { background: #14304f; border-radius: 10px; padding: 14px 18px; min-width: 130px; }
+.card b { font-size: 26px; display: block; color: #fff; }
+.chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.chip { background: #1d4e79; padding: 6px 12px; border-radius: 999px; }
+table { border-collapse: collapse; width: 100%; background: #14304f; border-radius: 10px; overflow: hidden; }
+td, th { padding: 8px 12px; text-align: left; border-bottom: 1px solid #1d4e79; }
+.note { opacity: .75; font-size: 14px; }
